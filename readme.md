@@ -2,7 +2,7 @@
 Vous devez faire un site internet à partir du fichier XML fourni.  
 Visuellement vous aurez autant de pages que de nœud **page** mais réellement vous n'aurez qu'un seul fichier PHP. 
 
-##Descriptif du XML
+## Descriptif du XML
 - Page : page du site
 - id : identifiant de la page. Sert aussi à naviguer
 - menu : texte du menu
