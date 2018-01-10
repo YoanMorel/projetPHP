@@ -12,5 +12,3 @@ Visuellement vous aurez autant de pages que de nœud **page** mais réellement v
 Vous n'aurez le droit que d'ajouter des classes ou des ids dans le code HTML du nœud content. Cela pour vous permettre de styliser vos pages. La structure ne doit pas être modifiée.   
 Vous devrez réécrire les urls pour qu'elles prennent le numéro de l'attribut id du nœud page suivit de l'extension html  
 Ex : 1.html
-
-BONUS:Ajouter un panier avec AngularJS
