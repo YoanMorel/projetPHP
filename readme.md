@@ -13,4 +13,4 @@ Vous n'aurez le droit que d'ajouter des classes ou des ids dans le code HTML du 
 Vous devrez réécrire les urls pour qu'elles prennent le numéro de l'attribut id du nœud page suivit de l'extension html  
 Ex : 1.html
 
-Ajouter un panier avec AngularJS
+BONUS:Ajouter un panier avec AngularJS
