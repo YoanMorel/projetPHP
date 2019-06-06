@@ -1,4 +1,6 @@
-
+body{
+  line-height: 1rem;
+}
 
 .navbar-custom {
   background:#f5ad0f;
@@ -53,26 +55,50 @@ a:hover, a:focus, a:active {
 }
 /*page2*/
 h1{
+  color: rgb(172, 101, 34);
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 2rem;
   margin-right: auto;
   margin-left: auto;
-  width: 30rem;
+max-width:30rem;
 border-radius:1rem;
 background-color: #f5ad0f;
 text-align: center;
 margin-top: 3rem;
 }
 p{
+color: #298688;
 font-family: 'Montserrat', sans-serif;
-padding-top: 1rem;
+padding-top: 0rem;
+margin-bottom: 0.3rem;
 }
 #i1, #i2, #i3, #i4, #i5{
-  padding:5rem;
-  	width:350px;
-  	display:inline-block;
+  padding:3rem;
+  width:340px;
+  display:inline-block;
   }
 .caption-text{
+  color: #298688;
+margin-top: 0.3rem;
 font-family: 'Montserrat', sans-serif;
+}
+h2{
+  color: rgb(172, 101, 34);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:35rem;
+  border-radius:1rem;
+  background-color: #f5ad0f;
+  text-align: center;
+  margin-top: 3rem;
+}
+.info{
+  width: 30rem;
+}
+form{
+  float:left;
 }
