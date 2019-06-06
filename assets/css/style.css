@@ -1,27 +1,19 @@
 
 
 .navbar-custom {
-/*   background-color: rgb(51, 51, 51);*/
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(171, 113, 36, 1) 40%, rgba(171, 113, 36, 1) 50%, rgba(171, 113, 36, 1) 60%, rgba(0, 0, 0, 0) 100%);
-
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(171, 113, 36, 1) 40%, rgba(171, 113, 36, 1) 50%, rgba(171, 113, 36, 1) 60%, rgba(0, 0, 0, 0) 100%);
-
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(245, 173, 15, 1) 40%, rgba(245, 173, 15, 1) 50%,rgba(245, 173, 15, 1) 60%, rgba(0, 0, 0, 0) 100%);
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
-
+  background:#f5ad0f;
   height: 10%;
 }
 
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: rgb(152, 184, 151);
+  color: #98b897;
 }
 
 
 .navbar-custom .navbar-nav .nav-link {
-  color: rgb(41, 134, 136);
+  color: #298688;
 }
 
 
@@ -58,4 +50,29 @@ a:hover, a:focus, a:active {
 .titreAcceuil1{
     margin-top: 5rem;
     margin-left: 5rem;
+}
+/*page2*/
+h1{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30rem;
+border-radius:1rem;
+background-color: #f5ad0f;
+text-align: center;
+margin-top: 3rem;
+}
+p{
+font-family: 'Montserrat', sans-serif;
+padding-top: 1rem;
+}
+#i1, #i2, #i3, #i4, #i5{
+  padding:5rem;
+  	width:350px;
+  	display:inline-block;
+  }
+.caption-text{
+font-family: 'Montserrat', sans-serif;
 }
