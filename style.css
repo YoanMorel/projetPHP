@@ -1,0 +1,53 @@
+
+
+.navbar-custom {
+background-color:rgba(245, 173, 15, 1);
+}
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgb(152, 184, 151);
+}
+
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgb(72, 203, 183);rgb(41, 134, 136)
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #E84A5F;
+}
+
+
+.navbar-default .navbar-toggle {
+  border-color: #E84A5F;
+}
+
+#navbarLink {
+  margin-left: 5rem;
+  margin-right: auto;
+  font-weight: bold;
+}
+.logo{
+    margin-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* * Links **/
+a {
+  text-decoration: none;
+  color: #020B40;
+  outline-style: none;
+}
+
+a:visited {
+  color: #020B40;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #f205be;
+}

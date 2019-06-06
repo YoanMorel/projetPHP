@@ -7,6 +7,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
         <title>projetPHP</title>
     </head>
     <body>
@@ -17,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav mr-auto" id="navbarLink">
 
-          <li class="nav-item"> <a class="nav-link" href="0.html">Acceuil</a></li>
+          <li class="nav-item"> <a class="nav-link" href="0.html">Accueil</a></li>
           <li class="nav-item"> <a class="nav-link" href="1.html">Qui sommes nous?</a></li>
           <li class="nav-item"> <a class="nav-link" href="2.html">Avis clients</a></li>
           <li class="nav-item"> <a class="nav-link" href="3.html">Contact</a></li>
