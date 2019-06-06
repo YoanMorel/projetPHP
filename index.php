@@ -18,7 +18,7 @@ if($_GET):
     array_map('htmlspecialchars', $_GET);
     extract($_GET);
     
-    echo $page;
+    $page = (int) $page;
     
     echo $xml->page[$page]->content;
     
