@@ -1,7 +1,66 @@
-#bod {
-  
+body{
+    height: 100%;
+    width: 100%;
 }
 
+#bod {
+
+}
+
+/*///// MENU /////*/
+.navbar-custom {
+    background-color: rgb(51, 51, 51); 
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(42, 54, 59, 1) 40%, rgba(42, 54, 59, 1) 50%, rgba(42, 54, 59, 1) 60%, rgba(0, 0, 0, 0) 100%);
+
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(42, 54, 59, 1) 40%, rgba(42, 54, 59, 1) 50%, rgba(42, 54, 59, 1) 60%, rgba(0, 0, 0, 0) 100%);
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(42, 54, 59, 1) 40%, rgba(42, 54, 59, 1) 50%, rgba(42, 54, 59, 1) 60%, rgba(0, 0, 0, 0) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+
+    height: 10%;
+}
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(152, 184, 151);
+}
+
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(152, 184, 151);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #E84A5F;
+}
+
+#navbarLink {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+
+/* ***** Links ******/
+a {
+    text-decoration: none;
+    color: #020B40;
+    outline-style: none;
+}
+
+a:visited {
+    color: #020B40;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #F27405;
+}
+
+
+/*///// MISE EN PAGE /////*/
 h2{
     color: #ff8100;
     text-align: center;
@@ -32,9 +91,62 @@ h3 {
     font-weight: 700;
 }
 
-p{
-    line-height: 0.5;
+.pFooter{
+ line-height: 1.2;
 }
 .date {
     font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* CSS du Footer */
+
+footer {
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 36, 35);
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-title {
+    font-size: 0.98rem;
+    font-weight: 700;
+}
+
+.footer-legis {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+hr.footerHR {
+    background-color: rgb(171, 63, 44);
+    width: 60px;
+}
+
+
+
+
+
+
+
+/* ***** Links ******/
+
+a.footerText {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/************* SEPARATOR *************/
+.separator {
+    background-color: #666;
+    height: .06em;
+    margin-bottom: .7em;
 }
