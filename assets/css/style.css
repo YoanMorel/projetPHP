@@ -53,5 +53,9 @@ a:visited {
 
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #F27405;
+  color: #f205be;
+}
+.titreAcceuil1{
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
